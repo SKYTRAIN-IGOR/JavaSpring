@@ -159,10 +159,6 @@ public class TestcontainersPropertySource extends MapPropertySource {
 
 	}
 
-	/**
-	 * {@link BeanRegistrationExcludeFilter} to exclude {@link EventPublisherRegistrar}
-	 * from AOT bean registration.
-	 */
 	static class EventPublisherRegistrarBeanRegistrationExcludeFilter implements BeanRegistrationExcludeFilter {
 
 		@Override
